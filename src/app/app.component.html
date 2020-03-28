@@ -1,0 +1,26 @@
+<div class="container">
+	<mat-toolbar style="text-align:center;">
+		<span class="span">QuaranTine</span>
+	</mat-toolbar>
+	<div class="header">
+    
+		<h1 style="font-size:18px;"><b>KARNATAKA COVID-19</b></h1>
+		<h4>QUARANTINE TRACKER</h4>
+		<!-- <p>As per the data provided by Govt. of Karnataka</p> -->
+        <p>Find number of quarantined in your area!</p>
+	</div>
+
+	<form action="">
+		<input type="search" placeholder="Search by Pincode">
+		<i class="fa fa-search"></i>
+	</form>
+</div>
+<div class="content">
+<mat-card style="text-align: center;margin:5px;">
+<h1 style="color:red"><b>105</b></h1> 
+<p style="color:red">QUARANTINED in this area</p>
+</mat-card>
+<mat-card *ngFor="let i of x">
+	test
+</mat-card>
+</div>
